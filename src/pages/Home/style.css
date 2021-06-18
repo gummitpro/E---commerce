@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+.wrap-home{
+	background-color: #f2f3f5;
+	padding-bottom: 12px;
+}
+.carousel img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content-slide{
+	position: relative;
+}
+
+.menu-category{
+	background-color: white;
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	padding: 16px;
+	border-radius: 6px;
+	box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgb(0 0 0 / 8%);
+}
+
+.menu-category ul li{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+	cursor: pointer;
+	padding: 2px 20px 2px 0;
+}
+
+.menu-category ul li:hover{
+	background-color: antiquewhite;
+}
+
+.menu-category ul li:last-child{
+	margin-bottom: 8px;
+}
+
+.icon-left{
+	width: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 8px;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+
+.banner-first{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.banner-firt-img{
+	border-radius: 8px;
+	padding: 0 10px;
+}
+
+.banner-firt-img img{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.banner img{
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+}
+
+.wrap-banner-product{
+	width: 100%;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+
+.banner-product{
+	background-color: white;
+	margin: 0 8px;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+.banner-product h1{
+	margin-right: 8px;
+	color: rgb(51, 51, 51);
+	font-weight: 700;
+	font-size: 20px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: elli
+}
+.slick-slider button{
+	display: none !important;
+}
+
+.header-sub{
+	display: none;
+	margin-bottom: 12px;
+	white-space: nowrap;
+	overflow-x: scroll;
+	
+}
+.header-sub::-webkit-scrollbar { 
+	display: none; 
+}
+
+.li-submenu{
+	padding: 12px;
+	color: white;
+	font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+	.menu-category{
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 426px){
+	.header-sub{
+		display: flex;
+		position: sticky;
+		top: 90px;
+		background-image: linear-gradient(90deg, rgb(230, 147, 23), rgb(192, 51, 105));;
+		font-size: 20px;
+		z-index: 1;
+		padding: 0 12px;
+	}
+	.header-sub div{
+		font-size: 12px;
+	}
+	.menu-category{
+		box-shadow: none;
+	}
+	
+}
+
+@media only screen and (max-width: 321px){
+	.banner-product{
+		background-color: white;
+		margin: 0 4px;
+		border-radius: 8px;
+		padding: 4px;
+	}
+}
+

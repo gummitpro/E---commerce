@@ -1,0 +1,20 @@
+
+saga and git
+-amend
+
+git checkout -b [Tên nhánh mới] login-page
+
+moment
+redux-saga
+axios
+
+components -> action -> saga -> reducer             
+							-> reducer         (Store) 
+
+
+
+asycn function getList(){
+	await ...
+	await ...
+}
+

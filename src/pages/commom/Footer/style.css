@@ -1,0 +1,27 @@
+
+footer {
+	background: white;
+	padding: 10px 50px;
+	width: 100%;
+}
+.footer-list-top > li {
+	text-align: left;
+	padding-bottom: 0px;
+	margin-top: 20px;
+}
+
+.footer-list-header {
+	padding: 10px 0 0px 0;
+	color: black;
+	font-weight: 500;
+}
+li a{
+	display: inline-block;
+	color: #47494e;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+li img{
+	display: inline-block;
+	margin: 8px 0;
+}

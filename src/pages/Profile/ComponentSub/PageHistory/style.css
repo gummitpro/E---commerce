@@ -1,0 +1,20 @@
+.history-image{
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgb(224, 224, 224);
+}
+.history-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.wrap-history .ant-card-body{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+@media only screen and (max-width: 426px){
+	.wrap-history .ant-card-body {
+		padding: 0px !important;
+	}
+}

@@ -1,0 +1,32 @@
+.wrap-payment-success{
+	text-align: center;
+	padding: 40px 0;
+	background-color: #f2f3f5;
+}
+
+.icon-payment-success{
+	color: orange;
+	font-size: 104px;
+}
+
+.text-payment-success{
+	font-weight: bold;
+	background: -webkit-linear-gradient( rgb(219, 135, 8), rgb(165, 21, 76));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 16px ;
+}
+
+.button-payment-success{
+	background-image: linear-gradient(to right, rgb(231, 167, 69), rgb(194, 73, 119));
+	outline: none;
+	border: none;
+	padding: 12px;
+	color: white;
+}
+
+.button-payment-success:hover{
+	background-image: linear-gradient(to right, rgb(228, 159, 57), rgb(192, 59, 110));
+}

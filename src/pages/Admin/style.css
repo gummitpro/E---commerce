@@ -1,0 +1,42 @@
+.dash-manager {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.chart-container{
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.parameter{
+  margin-top: 10px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.para-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.para {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+.para-1 {
+  width: 370px;
+  height: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}

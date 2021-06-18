@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: #3e474b;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #3e474b;
+}
+ul li a:hover{
+	text-decoration: none;
+	color: black;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ul{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.commomBackgroundBoder{
+	background-color: white;
+	border-radius: 6px;
+}
+header{
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	transition: height 5s ;
+	box-shadow: 0 4px 6px 0 rgba(202, 197, 197, 0.5);
+}
+.brand{
+	display: flex;
+}
+.brand img{
+	width: 60px;
+	height: auto;
+}
+.brand-name h1{
+	font-weight: bold;
+  background: -webkit-linear-gradient( rgb(219, 135, 8), rgb(165, 21, 76));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-header{
+	display: flex;
+	background-color: white;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	transition: height 5s ;
+}
+.header-search{
+	width: 45%;
+}
+.header-menu{
+	display: flex;
+}
+.header-menu li a {
+	color: #373941;
+	font-weight: 600;
+}
+
+.scrolls{
+	display: none;
+	transition: height 2s ;
+}
+.center-icon{
+	text-align: center;
+	font-size: 20px;
+}
+.header-menu Button {
+	min-height: 100%;
+	border: none !important;
+}
+.sub-cart {
+	display: flex;
+}
+.sub-user {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sub-user Button {
+	width: 150px;
+	border: none;
+	font-weight: 600;
+}
+.img-sub{
+	width: 50px;
+	height: 70px;
+	margin-right: 30px;
+}
+.img-sub img{
+	width: 100%;
+	height: auto;
+}
